@@ -1,0 +1,29 @@
+name: GlobalTrashCan
+main: io.github.spaacemc.Trashcan
+version: 1.0
+author: SpaaceMC
+description: Adds a globally accessible trashcan where players can dump and pick up trash.
+
+#  ///////////////////////
+# ///////COMMANDS////////
+#///////////////////////
+
+commands:
+  trashcan:
+    description: Opens up the trashcan.
+    aliases: [tc, t]
+    permissions: trashcan.open
+    usage: /<command>
+
+#  ///////////////////////
+# //////PERMISSIONS//////
+#///////////////////////
+
+permissions:
+  trashcan.open:
+    description: Allows opening of trashcan.
+    default: true
+
+#  ////////Not Bad for a//////
+# ///////////Novice//////////
+#//////////////Eh?//////////
